@@ -1,0 +1,197 @@
+@font-face {
+  font-family: "Anybody" ;
+  src: url('https://fonts.googleapis.com/css2?family=Anybody:wght@600&family=Carter+One&display=swap');
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.cartas {
+  width: 100vw;
+  text-align: center;
+  display: flex;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+}
+
+.logo {
+  width: 50px;
+  height: auto;
+  display: block;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+}
+
+.logo p {
+  font-family: "Anybody";
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #333333;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+button {
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Anybody', cursive;
+  background-color: #b3b3b3;
+  height: 100px;
+  width: 200px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.areaDeJogo {
+  width: 100%;
+}
+
+.perguntas {
+  border: 3px solid #e6dfd5;
+  width: 100%;
+  height: auto;
+  background-color: #e6dfd5;
+  font-family: 'Anybody', cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.cartas {
+  border: 3px solid #d8d5e6;
+  width: 200px;
+  height: 400px;
+  background-color: #d8d5e6;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-family: 'Anybody', cursive;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.carta {
+  display: flex;
+}
+
+.sidebar {
+  height: 100vh;
+  width: 150px;
+  z-index: 1;
+  background-color: #b3b3b3;
+  display: flex;
+}
+
+.sidebar p {
+  text-decoration: none;
+  font-size: 12px;
+  font-family: 'Anybody', cursive;
+  color: #000;
+  display: flex;
+}
+
+/* .sidebar{
+      display: flex;
+      width: 100px;
+      height: 100vh;
+      background-color:#b3b3b3;
+    }*/
+.logged {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom:3rem;
+}
+
+/*   
+  .pontuaçao{
+    font-family:'Anybody', cursive;  ;
+    display: flex;
+  } */
+
+.container {
+  /* height: 100vh;
+  width: 100px;
+  
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-content: stretch;
+  justify-content: space-evenly; */
+  display: flex;
+}
+
+.areaDeJogo {
+  display: block;
+
+}
+
+.players {
+  margin-top: 8rem;
+  display: block;
+  position: fixed;
+}
+
+.player-status {
+  margin-left:10px;
+  margin-bottom: 10px;
+}
+
+.line {
+  width: 135px;
+  border-bottom: 1px solid #000;
+}
+
+.title {
+  text-align: center;
+}
+
+/*utilities*/
+
+.flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex p {
+  font-size: 16px;
+}
