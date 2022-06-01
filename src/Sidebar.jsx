@@ -1,4 +1,10 @@
 import React from 'react'
+//Fazer assim a sidebar Listas
+const players = [
+  {name: "Marcelo", score: 1},
+  {name: "Carolina", score: 5},
+  {name: "Iulian", score: 3}
+]
 
 export default function Sidebar() {
   return (
@@ -16,32 +22,32 @@ export default function Sidebar() {
            </p> 
         </div>
         <div className='flex player-status'>
-          <p>Nome: Marcelo <br />
+          <p>Nome: Carolina <br />
               Pontuação: 0pts
            </p> 
         </div>
         <div className='flex player-status'>
-          <p>Nome: Marcelo <br />
+          <p>Nome: Iulian <br />
               Pontuação: 0pts
            </p> 
         </div>
         <div className='flex player-status'>
-          <p>Nome: Marcelo <br />
+          <p>Nome: Rui <br />
               Pontuação: 0pts
            </p> 
         </div>
         <div className='flex player-status'>
-          <p>Nome: Marcelo <br />
+          <p>Nome: Magda <br />
               Pontuação: 0pts
            </p> 
         </div>
         <div className='flex player-status'>
-          <p>Nome: Marcelo <br />
+          <p>Nome: Zelia <br />
               Pontuação: 0pts
            </p> 
         </div>
         <div className='flex player-status'>
-          <p>Nome: Marcelo <br />
+          <p>Nome: Armando <br />
               Pontuação: 0pts
            </p> 
         </div>

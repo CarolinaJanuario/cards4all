@@ -6,7 +6,7 @@ function App() {
     <div className='container'>
       <Sidebar />
       <div className='areaDeJogo'>
-        <div className="perguntas"><h3>Perguntas</h3></div>
+        <div className="perguntas"><h3>Everybody hates_________.</h3></div>
         <div className='areaResposta'></div>
         <div className="cartas">
           <div className='carta'>Respostas</div>
