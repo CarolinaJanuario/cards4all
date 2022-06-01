@@ -1,7 +1,7 @@
 # Getting Started with Create React App
 
 
-1-git clone + link repo
+1-git pull + link repo
 2-cd cards4all
 3-run [npm install] to install all node dependencies
 
