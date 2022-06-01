@@ -6,19 +6,20 @@ function App() {
     <div className='container'>
       <Sidebar />
       <div className='areaDeJogo'>
-        <div className="perguntas">Perguntas</div>
-        <div className='resposta'>Área das Respostas</div>
+        <div className="perguntas"><h3>Perguntas</h3></div>
+        <div className='areaResposta'></div>
         <div className="cartas">
           <div className='carta'>Respostas</div>
           <div className='carta'>Respostas</div>
           <div className='carta'>Respostas</div>
           <div className='carta'>Respostas</div>
+          <div className='carta'>Respostas</div>
+        </div>
+        <div className='areaAcoes'>
+          {/* <button>Troca as 5 cartas aleatoriamente</button> */}
+          <button>Jogar</button>
         </div>
       </div>
-      {/* <div className='acoes'>
-        <button>Troca as 5 cartas aleatoriamente</button>
-        <button>Troca uma carta aleatoriamente</button>
-      </div> */}
     </div>
   );
 }
